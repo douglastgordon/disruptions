@@ -15,7 +15,6 @@ class Layer {
   }
 
   maskElement() {
-    const mask = makeMask()
     // this.element.style.mask = url(#mask)
   }
 }

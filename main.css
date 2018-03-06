@@ -45,6 +45,26 @@
   z-index: 5;
 }
 
-.mask {
+.frame-0 {
+  background: repeating-linear-gradient(90deg, black, black 1px, transparent 1px, transparent 6px);
+}
 
+.frame-1 {
+  background: repeating-linear-gradient(90deg, transparent, transparent 1px, black 1px, black 2px, transparent 2px, transparent 6px);
+}
+
+.frame-2 {
+  background: repeating-linear-gradient(90deg, transparent, transparent 2px, black 2px, black 3px, transparent 3px, transparent 6px);
+}
+
+.frame-3 {
+  background: repeating-linear-gradient(90deg, transparent, transparent 3px, black 3px, black 4px, transparent 4px, transparent 6px);
+}
+
+.frame-4 {
+  background: repeating-linear-gradient(90deg, transparent, transparent 4px, black 4px, black 5px, transparent 5px, transparent 6px);
+}
+
+.frame-5 {
+  background: repeating-linear-gradient(90deg, transparent, transparent 5px, black 5px, black 6px);
 }

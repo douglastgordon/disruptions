@@ -3,31 +3,23 @@
   height: 50px;
   border-radius: 50%;
   position: relative;
-
-
-  /*-webkit-mask: url(#mask)*/
 }
 
-.frame-0 {
-  background: repeating-linear-gradient(90deg, black, black 1px, white 1px, white 6px);
+.ball.frame-0 {
+  right: -30px;
 }
-
-.frame-1 {
-  background: repeating-linear-gradient(90deg, white, white 1px, black 1px, black 2px, white 2px, white 6px);
+.ball.frame-1 {
+  right: -60px;
 }
-
-.frame-2 {
-  background: repeating-linear-gradient(90deg, white, white 2px, black 2px, black 3px, white 3px, white 6px);
+.ball.frame-2 {
+  right: -90px;
 }
-
-.frame-3 {
-  background: repeating-linear-gradient(90deg, white, white 3px, black 3px, black 4px, white 4px, white 6px);
+.ball.frame-3 {
+  right: -120px;
 }
-
-.frame-4 {
-  background: repeating-linear-gradient(90deg, white, white 4px, black 4px, black 5px, white 5px, white 6px);
+.ball.frame-4 {
+  right: -150px;
 }
-
-.frame-5 {
-  background: repeating-linear-gradient(90deg, white, white 5px, black 5px, black 6px);
+.ball.frame-5 {
+  right: -180px;
 }
