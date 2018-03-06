@@ -1,0 +1,26 @@
+.viewer {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+  cursor: move;
+  position: absolute;
+}
+
+.line {
+  height: 100%;
+  list-style: none;
+}
+
+.fat {
+  width: 5px;
+  background-color: black;
+}
+
+.thin {
+  width: 1px;
+  background-color: transparent;
+}
