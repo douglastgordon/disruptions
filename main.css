@@ -8,6 +8,7 @@
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
   cursor: move;
   position: absolute;
+  z-index: 10;
 }
 
 .line {
@@ -17,10 +18,33 @@
 
 .fat {
   width: 5px;
-  background-color: black;
 }
 
 .thin {
   width: 1px;
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+}
+
+.transparent {
   background-color: transparent;
+}
+
+.image-port {
+  width: 400px;
+  height: 500px;
+  margin: 100px auto;
+  padding: 20px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+  z-index: 5;
+}
+
+.mask {
+
 }

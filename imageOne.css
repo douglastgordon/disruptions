@@ -1,0 +1,33 @@
+.ball {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+
+
+  /*-webkit-mask: url(#mask)*/
+}
+
+.frame-0 {
+  background: repeating-linear-gradient(90deg, black, black 1px, white 1px, white 6px);
+}
+
+.frame-1 {
+  background: repeating-linear-gradient(90deg, white, white 1px, black 1px, black 2px, white 2px, white 6px);
+}
+
+.frame-2 {
+  background: repeating-linear-gradient(90deg, white, white 2px, black 2px, black 3px, white 3px, white 6px);
+}
+
+.frame-3 {
+  background: repeating-linear-gradient(90deg, white, white 3px, black 3px, black 4px, white 4px, white 6px);
+}
+
+.frame-4 {
+  background: repeating-linear-gradient(90deg, white, white 4px, black 4px, black 5px, white 5px, white 6px);
+}
+
+.frame-5 {
+  background: repeating-linear-gradient(90deg, white, white 5px, black 5px, black 6px);
+}
