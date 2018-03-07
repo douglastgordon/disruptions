@@ -27,8 +27,18 @@ const makeImageOne = () => {
 }
 
 const makeImageTwo = () => {
-  console.log("sdf")
-  return ""
+  const bigBallContainer = document.createElement("div")
+  bigBallContainer.className = "big-ball-container"
+  for (let j = 0; j < 6; j += 1) {
+    const ballContainer = document.createElement("div")
+    ballContainer.className = "ball-container-2"
+    for (let i = 0; i < 6; i += 1) {
+      new Layer(document.createElement("div"), i, "ball-2", ballContainer)
+    }
+    bigBallContainer.appendChild(ballContainer)
+  }
+
+  return bigBallContainer
 }
 
 const imageMap = () => {

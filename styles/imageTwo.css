@@ -1,0 +1,59 @@
+.big-ball-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  overflow: hidden;
+  width: 360px;
+  height: 460px;
+}
+
+.ball-container-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 118px;
+}
+
+.ball-2 {
+  background-color: white;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.ball-2.frame-0 {
+  width: 36px;
+  height: 36px;
+  z-index: 2;
+}
+
+.ball-2.frame-1 {
+  width: 72px;
+  height: 72px;
+  z-index: 3;
+}
+
+.ball-2.frame-2 {
+  width: 108px;
+  height: 108px;
+  z-index: 4;
+}
+
+.ball-2.frame-3 {
+  width: 144px;
+  height: 144px;
+  z-index: 5;
+}
+
+.ball-2.frame-4 {
+  width: 180px;
+  height: 180px;
+  z-index: 6;
+}
+
+.ball-2.frame-5 {
+  width: 118px;
+  height: 118px;
+  z-index: 7;
+}
