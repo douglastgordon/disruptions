@@ -1,6 +1,6 @@
 .viewer {
-  width: 300px;
-  height: 300px;
+  width: 360px;
+  height: 400px;
   display: flex;
   flex-direction: row;
   padding: 20px;
@@ -37,12 +37,15 @@
 }
 
 .image-port {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 400px;
   height: 500px;
   margin: 100px auto;
-  padding: 20px;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
   z-index: 5;
+  overflow: hidden;
 }
 
 .frame-0 {

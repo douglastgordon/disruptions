@@ -1,7 +1,7 @@
 const makeViewer = () => {
   const viewer = document.getElementById("viewer")
   new Draggable(viewer)
-  for (let i = 0; i < 50; i += 1) {
+  for (let i = 0; i < 60; i += 1) {
     const fat = document.createElement("li")
     fat.className = "fat black line"
     viewer.appendChild(fat)
@@ -12,10 +12,14 @@ const makeViewer = () => {
 }
 
 const makeImageOne = () => {
-  for (let i = 0; i < 6; i += 1) {
-    new Layer(document.createElement("div"), i, "ball")
+  const ballContainer = document.createElement("div")
+  ballContainer.className = "ball-container"
+  for (let i = 0; i < 80; i += 1) {
+    new Layer(document.createElement("div"), i, "ball", ballContainer)
   }
+  return ballContainer
 }
 
 makeViewer()
-makeImageOne()
+const ballContainer = makeImageOne()
+document.getElementById("image-port").appendChild(ballContainer)

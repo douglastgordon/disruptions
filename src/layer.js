@@ -1,20 +1,17 @@
 class Layer {
-  constructor(element, frame, className) {
+  constructor(element, frame, className, container) {
     this.element = element
-    this.frame = frame
+    this.frame = frame % 6
     this.className = className
+    this.container = container
 
     this.createHTML()
-    this.maskElement()
   }
 
   createHTML() {
     this.element.id = this.frame
     this.element.className = `${this.className} frame-${this.frame}`
-    document.getElementById("image-port").appendChild(this.element)
+    this.container.appendChild(this.element)
   }
 
-  maskElement() {
-    // this.element.style.mask = url(#mask)
-  }
 }
