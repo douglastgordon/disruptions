@@ -1,3 +1,9 @@
+h1 {
+  font-family: 'Mina', sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+
 .viewer {
   width: 360px;
   height: 400px;
@@ -42,7 +48,7 @@
   align-items: center;
   width: 400px;
   height: 500px;
-  margin: 100px auto;
+  margin: 20px auto 0;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
   z-index: 5;
   overflow: hidden;
