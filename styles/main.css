@@ -48,6 +48,35 @@
   overflow: hidden;
 }
 
+.image-options {
+  display: flex;
+  flex-direction: row;
+  border: 5px solid black;
+  height: 40px;
+  list-style: none;
+  padding: 0;
+  width: 85px;
+  cursor: pointer;
+}
+
+.image-options > li {
+  border-right: 5px solid black;
+  height: 100%;
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-family: Helvetica;
+  font-weight: 600;
+}
+
+.image-options > li:last-child {
+  border-right: none;
+}
+
+.image-options > li.focus {
+  background: repeating-linear-gradient(45deg, grey, grey 1px, white 1px, white 6px)
+}
+
 .frame-0 {
   background: repeating-linear-gradient(90deg, black, black 1px, transparent 1px, transparent 6px);
 }
